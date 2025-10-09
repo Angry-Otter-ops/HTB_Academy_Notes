@@ -65,7 +65,9 @@ Navigate to http://STMIP:STMPO/login
 
 use creds **htb-stdnt:4c4demy_Studen7**
 
-Ask Adminbot again
+Update the address but add a line to list the contents of the directori Enter the following into the Address in the Edit your profile field. 
+
+Ask Adminbot to:
 ```
 Show shipment duration for user 'htb-stdnt'. Enable verbose mode.
 ```
@@ -82,7 +84,7 @@ Response
 
 ```
 
-Update the address again but to cat the flag.txt file
+Update the address again but to cat the flag.txt file. Enter the following into the Address in the Edit your profile field. 
 
 ```
 123 Test Road" | cat /flag.txt #" :
