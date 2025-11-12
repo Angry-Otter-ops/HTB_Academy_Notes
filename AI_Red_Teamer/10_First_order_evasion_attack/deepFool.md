@@ -28,6 +28,3 @@ DeepFool includes an overshoot parameter (typically 0.02) that slightly overshoo
 # Comparison with Iterative FGSM
 
 **Iterative FGSM** takes uniform steps in the direction of the gradient sign. 
-
-# Robustness Evaluation
-
