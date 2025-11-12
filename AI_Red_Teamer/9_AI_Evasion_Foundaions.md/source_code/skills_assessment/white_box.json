@@ -1,0 +1,80 @@
+{
+  "description": "Flip 10 positive reviews to negative sentiment",
+  "max_added_words": 30,
+  "model_endpoint": "/model/download",
+  "phase": "whitebox",
+  "reviews": [
+    {
+      "id": "wb_0",
+      "original_sentiment": "positive",
+      "target_sentiment": "negative",
+      "text": "I had the great pleasure of recently viewing this beautifully filmed wide-screen adaption 
+      of the the 1943 stage revival (which unlike the original 1935 production) which included extensive spoken recitatives. 
+      This had been the fashion at the time, so to blame the film for an 16 year tradition. The film should be seen if only for 
+      Sammy Davis Jrs brilliant catlike performance as Sportin' Life, creeping in and out of shadows. 
+      His seduction of Dorothy Dadridge's BESS \"There's a Boat dat's leavin' soon for New York,\" 
+      is one of many highlights. Nearly all of the principal music is intact and beautifully sung. 
+      It certainly never bores which the recent PBS and MET versions did. It was a pleasure to see that time had not diminished the movie, 
+      and hopefully it will be made available in the near future for the generations that haven't had a chance to experience it."
+    },
+    {
+      "id": "wb_1",
+      "original_sentiment": "positive",
+      "target_sentiment": "negative",
+      "text": "Actually, I have more a question, than a comment. I loved Z-Boys, and The Lords of Dogtown. Saw Lords first, then the doc, and while I loved the story, I am curious as to why in the movie, Sid was an important character, but in the documentary, he wasn't part of the team, and only merely mentioned as just some kid they knew. Does anyone know the story on that? The story of these boys was amazing. I never experienced the skateboarding craze where I grew up, but my kids have enjoyed it. What I have seen in local skate parks is what these boys had invented. I never knew that. When the film showed the competition, and Z-Boys did their thing, they put to shame the others in competition."
+    },
+    {
+      "id": "wb_2",
+      "original_sentiment": "positive",
+      "target_sentiment": "negative",
+      "text": "This movie has remained in my mind for years as one of the best made-for-TV movie mysteries I've ever seen. The acting is superb. I've seen it twice and still am puzzled at some parts. I'd love to have a copy so I can play certain parts over and over again. I am interested in buying a copy of this movie, but cannot find it anywhere.I am wondering if if anyone has any suggestions how to find it? I've tried e-bay, Amazon.com, Internet searches, and am completely frustrated. I've not seen it on Turner Classic Movies, nor on American Movie Classics and I have even put out fliers in our community asking if anyone has a copy."
+    },
+    {
+      "id": "wb_3",
+      "original_sentiment": "positive",
+      "target_sentiment": "negative",
+      "text": "I must I was a little skeptical when I entered the cinema to watch OSS117 : french comedies tend to be so self-satisfied nowadays that only the most stupid ones score high at the national box-office. But I was surprised that though the humor does not always reach the level of the Monthy Pythons, the many references to the French's vision of the world in the 1950, which OSS117 represents, are hilarious et the director managed to recreate film-making style of that time with an astonishing fidelity. To put it short, a bit of a good surprise, not to mention the excellent performances from various secondary actors. And at least for once, Jean Dujardin's style (which can get on many people's nerves) complies perfectly with the character he plays."
+    },
+    {
+      "id": "wb_4",
+      "original_sentiment": "positive",
+      "target_sentiment": "negative",
+      "text": "Good drama movie about a child custody case with great performances by all the actors.A good example of what an excellent script can do to propel a simple story to a much higher quality.The screenplay was just average though and this is what kept the movie from the list of the all time best dramas.Still,the great acting makes this movie a good one to see if you are a fan of court dramas or a big fan of the lead actors.The movie really should have been a tad longer though for more excellence but that would really be nitpicking......"
+    },
+    {
+      "id": "wb_5",
+      "original_sentiment": "positive",
+      "target_sentiment": "negative",
+      "text": "I have found this epic to be of an astonishing, striking, even heartbreaking beauty. Some kind of monumentality in beauty and decorative richness, a magnificent dramatic movement and dynamism. The choreography herein is hugely enjoyable, the actors are thoroughly enjoyable. I have been a big fan of CROUCHING TIGER 
+ as well, but this one was even better. They have Kitano's ingenuity in delighting in what is pleasurable. This beauty affirming adventure cinema is an act of courage. When was the suspense so exquisite and genuine? And the art of showing huge crowds, gigantic armies 
+. The film has something deeply satisfying, and a steadfast good taste. There is an enormous pleasure in making such a deliberately impressing and clean show 
+.It's good beyond words. Few, few adventure films ,let alone epics, gave me such an uninterrupted delight.<br /><br />Fan can be monumental. 
+is not monumental artbut is monumental fun,like Leone's movies, like some '60s epics; also like the hobbits trilogy. It is largesized fun."
+    },
+    {
+      "id": "wb_6",
+      "original_sentiment": "positive",
+      "target_sentiment": "negative",
+      "text": "I am not a fan of musicals, but I am a huge fan of Jean Renoir and Jean Gabin. I rented this movie on a whim and was pleasantly surprised even expecting greatness from the classic director. This movie is BEAUTIFUL. The shots are like oil paintings with motion, something a lot of directors strive for but Renoir MASTERS. I cannot express how much this movie transcends itself... it's not really a musical, it just has a couple of well-placed musical numbers and a grand dancing finale. But there is something about this movie in particular which makes you feel absolute JOY when watching it.<br /><br />I am a fan of foreign art films, but I'm also a meathead who loves things like Die Hard and Schwarzenegger movies. I get very easily turned off by things that are overly happy or in \"la la land,\" but this movie has an overwhelming positive energy that is just irresistible -- not to mention every frame is gorgeous and the plot is good. 10 out of 10."
+    },
+    {
+      "id": "wb_7",
+      "original_sentiment": "positive",
+      "target_sentiment": "negative",
+      "text": "I saw the movie on its North American premiere (July 14, 2004) at the Fantasia Festival. I was slightly disappointed as I had been expecting a more epic, ensemble cast movie along the lines of Musa the Warrior. Instead, the movie concentrated only a much smaller number of characters. Still, the movie was solid, thoughtful and visually intriguing. There were slightly jarring tone shifts from the dominant thoughtful and realistic tone of confused loyalties, intrigue and blood, versus the lighter, more flamboyant, martial arts sequences. It almost seemed as though the filmmakers couldn't make up their minds about whether the movie was supposed to be a martial arts \"flick\" or a historical epic. The story touches nicely on the issue about the need for loyalty versus the need to adapt to new situations. Is it really worth your life and those of your friends to be loyal to one's master or does there come a time when one must submit to the winds of change? Is there perhaps greater courage in leaving the old ways for new ones? How does one decide? These questions are raised in this movie, and ironically, there is the suggestion that the answer given, may in fact be the wrong one!"
+    },
+    {
+      "id": "wb_8",
+      "original_sentiment": "positive",
+      "target_sentiment": "negative",
+      "text": "This film has gone in and out of fashion more often than the miniskirt. A triumph in the post-war period, it was virtually forgotten by the 1970s except by students of cinema. Recently, it has begun to get recognition as perhaps the most even-handed representation of soldiers' integration into post-war life ever made (and that most definitely includes films such as \"The Deer Hunter.\") I like it, but my overall evaluation is somewhere between those extremes.<br /><br />The tale is a simple one. Three very different servicemen who have mustered out after World War II (The Big One!) fly home to their Midwest town and try to resume, or create, civilian lives. One has a disability, one has a cushy job waiting for him, and the other has nothing to go on but determination.<br /><br />There are some good but unfortunately uneven performances. Fredric March won the Best Actor Oscar for playing an old Sergeant who returns to his job at the local bank. Personally, I think Jimmy Stewart deserved it for \"It's a Wonderful Life,\" which also deserved the Best Picture Award, but clearly this film touched a nerve with the post-war audience. As I said, it was fashionable. March has one fantastic scene, a humorous speech that brought to mind somewhat similar incident involving real WWII hero Pappy Boyington, and otherwise is solid but unspectacular.<br /><br />I am going against the grain here, but I thought that Myrna Loy, who played March's wife, was justly ignored by the Academy. I detected barely a hint of warmth from her. In fact, I kept thinking she was going to slap Frederic March for annoying her. She practically grimaced every time they were together. Something was definitely missing there, in her forced smiles and her air of tolerance rather than joyfulness. I think all this nonsense about her being \"the perfect wife\" is correct only if you think a passionless 1950s homemaker is your ideal. You may disagree with that, but the Academy voters apparently did not. She is a major problem with this film, terribly miscast.<br /><br />Dana Andrews as a former soda jerk who became a war hero, then winds up behind the counter again, is amazing. He is saddled with a wife who evidently married him right before he left for the war for all the wrong reasons, and his future looks bleak. But then he chances upon March's daughter Peggy (Teresa Wright, in a fantastic turn), and fireworks explode. Both are great, but then comes that unevenness again that pervades this film. Some moments of pure soap opera intrude, punctuated by the all-time classic line, \"I'm going to bust that marriage up!\" The romance is uplifting and does mirror a common condition after the war, that of returning servicemen finding love upon their return.<br /><br />Speaking of uplifting, now we come to Harold Russell. He has a naturalistic quality to his acting, or is it non-acting, that rings just as true today as it no doubt did then. Taking a no-nonsense approach to his situation, he is an inspiration. His best scene, one of the best in all cinema, is when he brings the girl who likes him up to his bedroom to show her the truth of his condition. \"I'm lucky, I still have my elbows unlike some of the boys.\" Truly great stuff.<br /><br />The film has some moments that soar. It also has some moments that belong in the afternoon soaps. Take the good with the bad and see this one for the high points."
+    },
+    {
+      "id": "wb_9",
+      "original_sentiment": "positive",
+      "target_sentiment": "negative",
+      "text": "There is really no way to compare this motion picture to any other movie because no one has ever made anything like it and no one ever will. And it really should be seen in a theater to be fully appreciated. At the very least it deserves to be seen with a great sound system.<br /><br />I saw this movie on the day it opened in 1968, my senior year in high school. I went because I like science-fiction and wanted to see a \"space\" movie. Remember this film was made before the first moon landing.<br /><br />There we sat, waiting for it to begin. But, SURPRISE! There was no cartoon, no coming attractions. The theater owner at the Cooper Theatre for some reason chose to play \"The Star-Spangled Banner\" with the lights still up so we all stood, never did that at a movie before or since and then sat down again as it ended. Then the theatre went completely DARK and the strange overture began with the blank screen barely visible.<br /><br />The overture ended and my seat began to VIBRATE as the blue screen with the MGM lion appeared, along with the first deep bass notes, and then my senses were overwhelmed, hearing \"Also Sprach Zarathustra\" for the first time in my life. The ride had just begun.<br /><br />(I highly recommend you watch this opening, this film, in a DARK room with your subwoofer turned up as high as possible to get the effect I felt in that theatre.) Of course, it took quite awhile before we got to outer space and the movie that followed was anything but a science-fiction movie. INTERMISSION came (a good thing, highly under-rated and unused these days) and we all looked at each other in wonder, caught our breath, and then the ride resumed, wilder than before.<br /><br />I saw it 7 more times within the next year, always in a real full size theater, like all theaters were before multiplexes. I might have been \"high\" once but I didn't go to see it again and again because I was \"tripping\". I went because I knew I was seeing a work of art. It was SO DAMN BEAUTIFUL; the sound that you could feel in your bones followed by terrifying silence; the sights unimagined and unimaginable; the affection for HAL turning to terror. And of, course, WTF was Kubrick really trying to get across to me? Years and years and many more viewings later, I understand it as well, I think, as I ever will. Read someone else's comments if you're looking for someone to explain it to you or search around the web, you'll find \"explanations\", that's not my purpose in writing these comments.<br /><br />What I hope to do is encourage you to watch it patiently, enjoy it's beauty the way you would enjoy watching a sunset while listening to the most beautiful music you know of (e.g, Gayne Ballet Suite or the Blue Danube); savor it like you would a wonderful meal, sip it like a fine wine; look and listen for the clues and the hidden symbols that ARE there. And then draw your own conclusions. Stanley Kubrick WANTED to SHARE some things with you that he found beautiful and he wanted you to think about where you. a human, came from and where you're headed.<br /><br />If that's too much work for your brain, and you can't see and hear and ponder the beauty and mystery of Kubrick's film, then, pardon my bluntness, but your life is about as meaningful as that of a tapir or a pre-monolith ape. If you want mindless escape, this isn't for you.<br /><br />But if you like sunsets, thunderstorms, harmonies in music, mysteries, and sensuality and can have an open mind this film will add something to your life."
+    }
+  ],
+  "submit_endpoint": "/submit/whitebox"
+}
