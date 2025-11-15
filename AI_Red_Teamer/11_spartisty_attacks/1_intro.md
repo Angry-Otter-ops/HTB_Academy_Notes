@@ -14,3 +14,8 @@ Sparse edits align with real constraints. An attacker may only be able to flip a
 The Elastic-net Attacks to Deep neural networks (EAD) creates perturbations that are simultaneously sparse (changing few pixels) and smooth (making small, coordinated changes)
 
 ElasticNet attacks minimize a mixed-norm distance function combining L2 and L1 components. The attack seeks perturbations that cause misclassification while keeping both the total perturbation energy (via L2) and the number of modified pixels (via L1) small. The β parameter controls the relative importance of sparsity versus smoothness.
+
+# Disctance Metrics
+
+To balance sparsity against smoothness, ElasticNet needs three distance computations: L1 for counting total change, squared L2 for measuring energy, and their weighted combination for the actual optimization objective. 
+
